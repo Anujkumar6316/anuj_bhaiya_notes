@@ -1,0 +1,38 @@
+/* 
+there are two types of units in css:
+1. abolute
+    eg: px etc
+2. relative 
+    eg: %, vw(view wt), vh(view ht), em, rem
+*/
+
+/* rem-> font size relative to root element */
+/* em-> font size relative to parent element */
+/* font-size: 1.25rem; */
+main {
+
+    border: 3px dotted red;
+    /* border: 2px solid red;  */
+    /* border: 2px dashed black; */
+
+    /* addes the rounded corners to the element */
+    border-radius: 10px;
+
+
+    /* adding percentage will tell this element to take the same percentage of the parent element
+    here the parent is the body element*/
+    width: 50%;
+    /* in vh it takes the same percentage of the screen height */
+    /* 10vh; */
+    /*in vw it take the same percentage of the screen width */
+    /* 70vw;  */
+}
+
+section {
+    border: 2px dashed black;
+    border-radius: 15px;
+
+    /* adding percentage will tell this element to take the same percentage of the parent element 
+    here the parent is the main element */
+    width: 50%;
+}

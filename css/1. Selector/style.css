@@ -1,0 +1,28 @@
+/* element selectors */
+/* selecting h1 element */
+h1{
+    color: red;
+}
+
+/* class selector */
+.list-types{
+    color: green;
+}
+
+article{
+    background-color: aqua  ;
+}
+
+/* now creating highlight css */
+.highlight{
+    background-color: yellow;
+}
+
+.purple{
+    background-color: purple;
+}
+
+/* using id */
+#first{
+    color: yellow;
+}

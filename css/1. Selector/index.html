@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector in HTML</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <h1>hello</h1> -->
+    <header>
+        <h1>Selector in HTML</h1>
+    </header>
+    <main>
+        <article id="first">
+            <ol class="list-types">
+                <li>Simple selector
+                    <ol type="a">
+                        <li>Element selector</li>
+                        <li>Class Selector</li>
+                        <li>Id selector</li>
+                    </ol>
+                </li>
+                <li>Universal selector.*</li>
+                <li>Gouping selector</li>
+                <li>Nested Selector</li>
+            </ol>
+        </article>
+
+        <article id="second" class="purple">
+            <h2>Element Selector</h2>
+            <p>The element Selector selects HTML elements based on the element name</p>
+        </article>
+
+        <article id="third" class="aqua">
+            <h2>Id selector</h2>
+            <p>The id selector uses the id attribute of an HTML element to select a specific element. The id fo an
+                element is unique within a page, so the id selector is used to select one unique element!</p>
+        </article>
+
+        <article id="forth" class="purple">
+            <h2>Class Selector</h2>
+            <p>The class selector selects HTML elements with a specific class attributes. To select elements with a
+                specific class, <span class="highlight">write a period(.) character, followed by the class name</span></p>
+        </article>
+
+        <article>
+            <h2>Specificity Order</h2>
+            <p><b>id>class>element</b><br>There is also an <b>!important</b> rule, That is used to add more priority to the property than normal<br>
+            Note: Do not use it unless you absolutely have to</p>
+        </article>
+    </main>
+</body>
+
+</html>

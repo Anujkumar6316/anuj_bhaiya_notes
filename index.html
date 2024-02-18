@@ -5,21 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anuj Bhaiya's CSS playlist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <h1>CSS playlist</h1>
-        <article class="index">
-            <ol>
-                <li><a href='css/1. Selector/index.html'>Selector in CSS</a></li>
-            </ol>
-        </article>
-
-        <div class="pdf">
-            <object type="application/pdf" data="pdf_notes/1. Introduction of css.pdf" height="900" width="700"></object>
-        </div>
     </header>
+    <article class="index">
+        <table id="customers">
+            <!-- col name -->
+            <tr>
+                <th>Topic</th>
+                <th>Handwritten notes</th>
+                <th>Html code</th>
+                <th>Css code</th>
+                <!-- <th>Practice set solutions</th> -->
+            </tr>
+
+            <!-- col data row -->
+            <tr>
+                <td><a href='css/1. Selector/index.html'>Selector in CSS</a></td>
+                <td><button><a href="pdf_notes/2. selectors .pdf" target="_blank">Notes</a></button></td>
+            </tr>
+            <tr>
+                <td><a href='css/2. Colors/index.html'>Colors in CSS</a></td>
+                <td><button><a href="pdf_notes/1. Introduction of css.pdf" target="_blank">Notes</a></button></td>
+            </tr>
+            <tr>
+                <td><a href="css/3. units in css/index.html">Units in css</a></td>
+                <td><button><a href="pdf_notes/3. Units in css.pdf" target="_blank">Notes</a></button></td>
+            </tr>
+            <tr>
+                <td><a href="css/4. Box model in css/index.html">Box model in css</a></td>
+                <td><button><a href="pdf_notes/4. Box model.pdf" target="_blank">Notes</a></button></td>
+                <td><button><a href="css/4. Box model in css/index.txt" target="_blank">Html</a></button></button></td>
+                <td><button><a href="css/4. Box model in css/style.txt" target="_blank">css</a></button></td>
+            </tr>
+            <tr>
+                <td><a href="css/6. Font and text properties in css/index.html">Box model in css</a></td>
+                <td><button><a href="pdf_notes/6. Font and text properties in css.pdf" target="_blank">Notes</a></button></td>
+                <td><button><a href="css/5. Font and text properties in css/index.txt" target="_blank">Html</a></button></button></td>
+                <td><button><a href="css/5. Font and text properties in css/style.txt" target="_blank">css</a></button></td>
+            </tr>
+        </table>
+    </article>
 </body>
 
 </html>

@@ -1,0 +1,13 @@
+body{
+    /* background-color: red; */
+    /* styling font size, fammily, align */
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: red;
+    background-color: black;
+}
+
+article {
+    background-color: yellowgreen;
+}

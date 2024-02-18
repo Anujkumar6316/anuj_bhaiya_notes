@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: azure;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+
+a {
+    color: inherit;
+}
+
+.index {
+    /* absolute unit */
+    line-height: 50px;
+
+    /* rem-> font size relative to root element */
+    /* em-> font size relative to parent element */
+    font-size: 1.25rem;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}

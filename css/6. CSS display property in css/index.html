@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CSS display property in CSS</h1>
+    </header>
+
+    <main>
+        <h3>Display value:</h3>
+        <ol>
+            <li>Block: It blocks the flow of the display. It takes all the width.
+                <br>eg: paragraph, headings, division, forms, list.
+            </li>
+            <li>inline: eg: img, span, a,</li>
+            <li>inline-block: Best of both</li>
+            <li>None</li>
+        </ol>
+
+        <section class="block">
+            <h1 style="text-align: left;">
+                <span style="color: red">Let's</span><span style="color: green"> get</span><span
+                    style="color: blue;">started</span>
+            </h1>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi sunt est autem consequatur repellendus
+                quisquam libero quam dolorem doloremque, veniam id soluta magni eius mollitia quasi vel dicta odio
+                reprehenderit.</span>
+            <a href="#">click me</a>
+            <a href="#">click me</a>
+
+            <p>
+                From the above we can a, span are taking only taking the space for the content, where as heading, para, div is taking all the width of the page.
+                <br>
+                Because of this we can't change the width of the inline display, whereas we can do in the block display.
+                <br>
+                to achieve the both the property we can use inline-block.
+                <br>
+                We can also make our para tag block element to inline using <b>display: block/inline-block/inline/none</b> css. 
+            </p>
+        </section>
+
+        <!-- creating nav bar -->
+        <section class="nav-bar">
+            <li class="brand-name">Brand name</li>
+            <li>Home</li>
+            <li>About me</li>
+            <li>Contact</li>
+        </section>
+    </main>
+</body>
+
+</html>

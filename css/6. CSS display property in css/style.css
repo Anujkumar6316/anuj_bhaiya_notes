@@ -1,0 +1,38 @@
+*{
+    /* border: 1px solid red; */
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    border-color: green;
+    display: inline-block;
+}
+
+span{
+    border-color: blue;
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+.nav-bar{
+    text-align: right;
+    background-color: gray;
+    padding: 10px ;
+}
+
+li:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.brand-name{
+    text-align: left;
+}

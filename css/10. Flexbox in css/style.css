@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: 2px solid red;
+    height: 400px;
+
+    /* after making our parent class flex, it will automatically make the children class flex too */
+    display: flex;
+
+    /* flex direction: row/column/row-reverse/column-reverse */
+    /* flex-direction: row; */
+
+    /* flex wrap:  */
+    /* flex-wrap: wrap; */
+    /* provides margin between the box class not between the container and box class */
+    /* this is also a shorthand for gap-row and gap-column */
+    /* gap: 20px; */
+    /* row-gap: 20px;
+    column-gap: 20px; */
+
+    /* flex-flow: shorthand for flex-direction and flex-wrap */
+    flex-flow: wrap row;
+
+    /* (justify-content: space-around) it will distribute the extra space of container class between the box class equally and it will also change its distribution if if shirnk our website */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+
+    /* align-items: center; */
+    /* align-items: end; */
+    align-items: start;
+}
+
+.box{
+    border: 2px solid green;
+    /* margin: 10px 0px; */
+    width: 80px;
+}
